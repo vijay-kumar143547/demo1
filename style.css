@@ -1,0 +1,19 @@
+.container{
+    background-color: black;
+    height: 100vh;
+    display: grid;
+    gap:10px ;
+    grid-template-rows: 100px auto 100px;
+    grid-template-columns: 100px auto 100px;
+}
+.container >div {
+    background-color: brown;
+}
+.nav{
+    grid-column: start:1;
+    grid-column: :end:3;
+}
+.footer{
+    grid-column: start:1;
+    grid-column: :end:3;
+}
